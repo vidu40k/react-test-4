@@ -1,0 +1,26 @@
+// prettier-ignore
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      // This needs to be mirrored in babel.config.js
+      // Components is a directory with subdirectories
+      "App": ["./App.tsx"],
+      "api/*": ["src/API/*"],
+      "types/*": ["src/@types/*"],
+      "assets": ["src/assets"],
+      "common/*": ["src/components/common/*"],
+      "AppLayer/*": ["./src/components/AppLayer/*"],
+      "AuthLayer/*": ["./src/components/AuthLayer/*"],
+      "navigation/*": ["src/navigation/*"],
+      "appRedux": ["src/redux"],
+      "appRedux/*": ["src/redux/*"],
+      "scheme/*": ["src/scheme/*"],
+      "utils/*": ["src/utils/*"],
+    },
+    "esModuleInterop": true,
+    "lib": ["es6", "esnext"],
+    "jsx": "react-native",
+  }}

@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/SFUIDisplay-Medium.ttf",
+      "sha1": "7c0225fc6227fe9a963bd4caf256cae461d0018d"
+    },
+    {
+      "path": "src/assets/fonts/SFUIDisplay-Semibold.ttf",
+      "sha1": "719ff7ba22966534e63bd764f61e5ad2df655513"
+    }
+  ]
+}
